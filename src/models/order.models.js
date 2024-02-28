@@ -15,7 +15,7 @@ const orderSchema = new mongoose.Schema({
        default : 0,
        required : true,
    },
-   customername : {
+   userId: {
       type : mongoose.Schema.Types.ObjectId,
       ref : "User",
       required : true ,

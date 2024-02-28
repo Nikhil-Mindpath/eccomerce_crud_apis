@@ -4,8 +4,8 @@ import { deleteById, loginUser, registerUser, updateUser } from "../controllers/
 const userRouter = Router();
 
 userRouter.post("/register", registerUser);
-userRouter.get("/login",loginUser)
+userRouter.get("/login",loginUser);
 userRouter.put("/update/:id",updateUser)
 userRouter.delete("/delete/:id",deleteById);
 
-export default userRouter;   
+export default userRouter;  
